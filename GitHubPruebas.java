@@ -14,9 +14,9 @@ public class GitHubPruebas {
 		if (anos >= 18) {
 			System.out.println("Eres mayor de edad");
 			esMayor = true;
-		}else if (anos < 0){
+		} else if (anos < 0){
 			System.out.println("¿Tu eres tonto?");
-		}else {
+		} else {
 			System.out.println("Eres menor de edad");
 			esMayor = false;
 		}
